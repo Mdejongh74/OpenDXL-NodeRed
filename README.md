@@ -91,9 +91,9 @@ with DxlClient(config) as client:
 ![python3_Node Fuction setup](https://user-images.githubusercontent.com/23244127/26920997-fd1078e6-4c3a-11e7-9576-61ef36e3914d.png)
 
 ## Start-up OpenDXL Bridge Service
-In order to use the data bridge (wrapper) service, run OpenDXL_Bridge_Service.py script on the CentOS system:
+In order to use the data bridge (wrapper) service, run OpenDXL_Bridge.py script on the CentOS system:
 
-$ python OpenDXL_Bridge_Service.py
+$ python OpenDXL_Bridge.py
 
 ## OpenDXL Bridge Service Output
 After starting the python script and sucessfully setting-up the Node-Red framework below screen output will be displayed:
