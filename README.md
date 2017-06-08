@@ -62,7 +62,8 @@ $ npm install -g node-red-contrib-python3-function
 2. Drop new **Python3 function** into dashboard flow and insert below Node code :
 
 **_python code:_**
-  ````python
+
+  ```python
 import os
 import sys
 from dxlclient.client import DxlClient
