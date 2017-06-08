@@ -1,18 +1,20 @@
-# OpenDXL-NodeRed Bridge
+![mfe logo](https://user-images.githubusercontent.com/23244127/26923460-71d3b0e2-4c42-11e7-8d93-5955f0b090f4.png)
 
+# McAfee OpenDXL - NodeRed Bridge
+ 
 ## Introduction
-This project focus around real-time bi-directional data sharing **(bridging)** between McAfee DXL fabric and 3rd party data networks.
+This project focus around real-time bi-directional data sharing **(bridging)** between [McAfee Data Exchange Layer](https://www.mcafee.com/uk/solutions/data-exchange-layer.aspx "MFE DXL") and 3rd party data networks.
 
 ## Motivation
-- Enable OpenDXL community to quickly create new integration use cases 
-- Excel integration-adoption of OpenDXL technology.
+- Enable [OpenDXL community](https://community.mcafee.com/community/business/dxl/overview) to quickly create new integration use cases 
+- Excel integration-adoption of OpenDXL
 - Create easy to use data bridging platform
 
 ## Getting Started (Bridge Service)
 - McAfee OpenDXL wrapper service (py client) is responsible for securely collecting and forwarding data from and to McAfee Data Exchange layer (DXL)
 - A flow based programming tool (Node-Red) enables easy wiring (coding) of 3rd party data source feeds (hardware devices, APIs, data sets and online data services) and orchestrate data traffic to and from McAfee DXL OpenDXL wrapper.
 
-![Architecture](https://user-images.githubusercontent.com/23244127/26917625-4a9a79a6-4c2f-11e7-90f7-cb3acdb837d2.png)
+![Architecture](https://user-images.githubusercontent.com/23244127/26922925-edd8ad84-4c40-11e7-9a02-bd5167fca79c.png)
 
 ## Built With
 - [CentOS Minimal](https://wiki.centos.org/Download) release v7:  free and open source Linux computing platform
@@ -59,7 +61,11 @@ $ npm install -g node-red-contrib-python3-function
 
 ### Create NodeRed-OpenDXL Publisher Node
 1. Browse to URL Node-Red Admin UI **(Port:1880)**
-2. Drop new **Python3 function** into dashboard flow and insert below Node code :
+2. Drop new **Python3 function** into dashboard flow
+
+![python3_nodered](https://user-images.githubusercontent.com/23244127/26923264-dbcc2674-4c41-11e7-883f-de070d8830a2.png)
+
+3. Enter following OpenDXL Publisher Python code in Node:
 
 **_python code:_**
 
