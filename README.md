@@ -67,7 +67,7 @@ $ npm install -g node-red-contrib-python3-function
 
 ![python3_nodered](https://user-images.githubusercontent.com/23244127/26923264-dbcc2674-4c41-11e7-883f-de070d8830a2.png)
 
-3. Edit new NodeRed-OpenDXL Python Function and enter below Python code (additionall see file OpenDXL_Pub_Node-Red.py):
+3. Edit new NodeRed-OpenDXL Function Node in Dashboard Flow and enter below python code (additionaly see file **OpenDXL_Pub_Node-Red.py**):
 
 **_python code:_**
 
@@ -91,7 +91,7 @@ with DxlClient(config) as client:
 ![python3_Node Fuction setup](https://user-images.githubusercontent.com/23244127/26920997-fd1078e6-4c3a-11e7-9576-61ef36e3914d.png)
 
 ## Start-up OpenDXL Bridge Service
-In order to use the data bridge (wrapper) service, run OpenDXL_Bridge.py script on the CentOS system:
+In order to use the data bridge (wrapper) service, run **OpenDXL_Bridge.py** script on the CentOS system:
 
 $ python OpenDXL_Bridge.py
 
