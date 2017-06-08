@@ -67,7 +67,7 @@ $ npm install -g node-red-contrib-python3-function
 
 ![python3_nodered](https://user-images.githubusercontent.com/23244127/26923264-dbcc2674-4c41-11e7-883f-de070d8830a2.png)
 
-3. Enter following OpenDXL Publisher Python code in Node:
+3. Edit new NodeRed-OpenDXL Python Function and enter below Python code (additionall see file OpenDXL_Pub_Node-Red.py):
 
 **_python code:_**
 
