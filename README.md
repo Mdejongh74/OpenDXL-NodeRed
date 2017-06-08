@@ -16,7 +16,7 @@ This project focus around real-time bi-directional data sharing **(bridging)** b
 
 ![Architecture](https://user-images.githubusercontent.com/23244127/26922925-edd8ad84-4c40-11e7-9a02-bd5167fca79c.png)
 
-## Built With
+## Prerequisites
 - [CentOS Minimal](https://wiki.centos.org/Download) release v7:  free and open source Linux computing platform
 - [Mosquito](https://mosquitto.org/download/) MQTT Message Broker release v1.4: Open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 3.1 and 3.1.1
 - Eclipse [Paho](https://pypi.python.org/pypi/paho-mqtt/1.1) MQTT python client v1.1: Linux client class library which enable applications to connect to an MQTT broker to publish messages, and to subscribe to topics and receive published messages
@@ -24,7 +24,7 @@ This project focus around real-time bi-directional data sharing **(bridging)** b
 McAfee [OpenDXL](https://www.mcafee.com/us/developers/open-dxl/index.aspx) python Client
 
 
-## Installation Bride Service
+## Installing Bride Service
 ### Mosquitto MQTT Broker, Paho MQTT Client & Node-RED framework
 
 1.Installing Mosquitto Broker & paho mqtt client from Package in CentOS 7:
@@ -101,3 +101,25 @@ Received DXL Topic: /mcafee/event/dxl/brokerregistry/topicadded
 
 Send MQTT Payload: {“topic”:#”}
 ```
+
+## Example Flows OpenDXL Briding in Node-Red
+
+See below a snapshot of a couple of Use-cases to integrate 3rd party data using OpenDXL Bridge Service and Node-RED:
+
+![example flows](https://user-images.githubusercontent.com/23244127/26924402-fcdfa4cc-4c45-11e7-9bd4-a6db04a766b7.png)
+
+## Versioning
+
+For the versions available, see the tags on this repository.
+
+## Authors
+
+**Martin de Jongh** - Project design & Bridge Service programmer  - [McAfee](https://www.mcafee.com/us/index.html)
+
+## Acknowledgments
+
+- [Martin Ohl](https://github.com/mohl1/) - Supporting developer OpenDXL-NodeRed wrapper code - ** McAfee **
+- [Chris Smith](https://github.com/chrissmith-mcafee)- Development team OpenDXL Client - ** McAfee **
+
+
+
