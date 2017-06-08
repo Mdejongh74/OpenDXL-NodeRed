@@ -12,7 +12,7 @@ This project focus around real-time bi-directional data sharing **(bridging)** b
 - McAfee OpenDXL wrapper service (py client) is responsible for securely collecting and forwarding data from and to McAfee Data Exchange layer (DXL)
 - A flow based programming tool (Node-Red) enables easy wiring (coding) of 3rd party data source feeds (hardware devices, APIs, data sets and online data services) and orchestrate data traffic to and from McAfee DXL OpenDXL wrapper.
 
-![]({{site.baseurl}}/![image](https://user-images.githubusercontent.com/23244127/26917625-4a9a79a6-4c2f-11e7-90f7-cb3acdb837d2.png)
+![image](https://user-images.githubusercontent.com/23244127/26917625-4a9a79a6-4c2f-11e7-90f7-cb3acdb837d2.png)
 
 ## Built With
 - [CentOS Minimal](https://wiki.centos.org/Download) release v7:  free and open source Linux computing platform
