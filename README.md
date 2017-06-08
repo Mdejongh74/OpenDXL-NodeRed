@@ -23,8 +23,9 @@ This project focus around real-time bi-directional data sharing **(bridging)** b
 - [Mosquito](https://mosquitto.org/download/) MQTT Message Broker release v1.4: Open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 3.1 and 3.1.1
 - Eclipse [Paho](https://pypi.python.org/pypi/paho-mqtt/1.1) MQTT python client v1.1: Linux client class library which enable applications to connect to an MQTT broker to publish messages, and to subscribe to topics and receive published messages
 - [Node-RED](http://nodered.org/) version 0.16.2(npm): Flow based programming tool for wiring together hardware devices, APIs and online data services
-McAfee [OpenDXL](https://www.mcafee.com/us/developers/open-dxl/index.aspx) python Client
-
+- McAfee [OpenDXL](https://www.mcafee.com/us/developers/open-dxl/index.aspx) python Client
+- McAfee Data Exchange Layer Broker v3.x: MFE DXL Fabric Message broker
+- McAfee ePolicy Orchestrator v5.3: Single console for Endpoint Security Management
 
 ## Installing Bride Service
 ### Mosquitto MQTT Broker, Paho MQTT Client & Node-RED framework
