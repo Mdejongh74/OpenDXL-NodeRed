@@ -10,9 +10,11 @@ This project focus around real-time bi-directional data sharing **(bridging)** b
 - Excel integration-adoption of OpenDXL
 - Create easy to use data bridging platform
 
-## Getting Started (Bridge Service)
-- McAfee OpenDXL wrapper service (py client) is responsible for securely collecting and forwarding data from and to McAfee Data Exchange layer (DXL)
-- A flow based programming tool (Node-Red) enables easy wiring (coding) of 3rd party data source feeds (hardware devices, APIs, data sets and online data services) and orchestrate data traffic to and from McAfee DXL OpenDXL wrapper.
+## Getting Started
+
+### Main Bridge Service components
+- **McAfee OpenDXL wrapper** : McAfee python Client service, responsible for securely collecting and forwarding data from and to McAfee Data Exchange layer (DXL).
+- **Node-RED** :  Flow based graphical programming tool, enables easy wiring (coding) of 3rd party data source feeds (hardware devices, APIs, data sets and online data services) and manages data traffic orchestration into McAfee Data Exchange Layer (DXL).
 
 ![Architecture](https://user-images.githubusercontent.com/23244127/26922925-edd8ad84-4c40-11e7-9a02-bd5167fca79c.png)
 
