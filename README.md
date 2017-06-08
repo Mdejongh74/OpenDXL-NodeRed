@@ -120,4 +120,5 @@ For the versions available, see the tags on this repository.
 
 - [Martin Ohl](https://github.com/mohl1/) - Supporting developer OpenDXL-NodeRed wrapper code - **McAfee**
 - [Chris Smith](https://github.com/chrissmith-mcafee)- Development team OpenDXL Client - **McAfee**
+- Thomas Maxeiner - Project Coach - **McAfee**
 
