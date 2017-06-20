@@ -1,6 +1,6 @@
 ![mfe logo](https://user-images.githubusercontent.com/23244127/26923460-71d3b0e2-4c42-11e7-8d93-5955f0b090f4.png)
 
-# McAfee OpenDXL - NodeRed Bridge
+# McAfee OpenDXL Bridge
  
 ## Introduction
 This project focus around real-time bi-directional data sharing **(bridging)** between [McAfee Data Exchange Layer](https://www.mcafee.com/uk/solutions/data-exchange-layer.aspx "MFE DXL") and 3rd party data networks.
